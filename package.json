@@ -19,6 +19,7 @@
   },
   "name": "begin-app",
   "version": "0.0.0",
+  "type": "module",
   "description": "Basic Begin personal website",
   "scripts": {
     "start": "npx sandbox"
