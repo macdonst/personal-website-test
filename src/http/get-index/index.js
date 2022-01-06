@@ -1,10 +1,13 @@
 const Main = require('@architect/views/main.js')
 const arc = require('@architect/functions')
+import chalk from 'chalk'
 
 // Customize your site by changing the data below
 exports.handler = async function Index () {
 
+  console.log("Trying chalk")
   console.log(process.versions.node)
+  console.log(chalk.blue('Hello world!'));
 
   let body = Main({
     /**
